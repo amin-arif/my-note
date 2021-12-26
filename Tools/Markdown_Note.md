@@ -4,28 +4,35 @@ ___
 ___
 <br>
 
+### Markdown Document
+>   [Resource 1](https://www.markdownguide.org/basic-syntax/ "Simple note") &nbsp; &nbsp; [Resource 2](https://daringfireball.net/projects/markdown/syntax)
 
 <!-- Headings --> 
 ## **1. Heading**
+
     Heading 1: One Hash # sign before line
     Heading 2: Two Hash ## before line
     Heading 6: Six Hash ###### before line
 
 
 ## **2. Font Italics**
+
     Italics font inside *One Asterisk* or _One Undersocre_
 
 
 ## **3. Font Bold**
+
     Bold Font Inside **Two Asterisk** or __Two Undersocre__
 
 
 ## __4. Strike__
+
 ~~This is strike~~ Inside __\~\~Two Tilde\~\~__
 <br><br>
 
 
 ## __5. Horizontal Line__
+
 ---
 Horizonal line inside __\-\-\-Triple Hypen\-\-\-__ &nbsp;or&nbsp; __\~\~\~Triple Hypen\~\~\~__
 ___
@@ -33,27 +40,32 @@ ___
 
 
 ## __6. White Space__
-For space: __&nbsp\;__
-<br><br>
+
+    For space: &nbsp;
+<br>
 
 
 ## __7. Comment__
+
 Like HTML comment tag: &nbsp;__\<!--This is comment tag\-->__
 <br /><br />
 
 
 ## __8. New Line__
-New line:&nbsp; __\<br>__
-<br /><br />
+
+    New line: <br> or <br />
+<br/>
 
 
 ## __9. Inline Code Block__
+
 > \`Code\`  
 `<p>This is paragaraphp block<\p>`
 <br /><br />
 
 
 ## __10. List__
+
 * Unorder one (Use: __\*__ )
 * Unorder two
   * Sub unorder list 1 (Use: __Tab then, \*__ )
@@ -67,6 +79,7 @@ New line:&nbsp; __\<br>__
 
 
 ## __11. Link__
+
     [Link_name](url)
     Example1: [Google](http://www.google.com)
 
@@ -80,6 +93,7 @@ View2: [Youtube](http://www.youtube.com "This is YouTube")
 
 
 ## __12. Image__
+
     ![Image_name](Image_URL_or_Path)
 ![Markdown Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp8UwbFajZR2oHDXF6jVpJHJWvk6Br4ZFLeg&usqp=CAU)
 <br /><br />
@@ -88,6 +102,7 @@ View2: [Youtube](http://www.youtube.com "This is YouTube")
 # Github Markdown
 
 ## __13. Code Blocks__
+
     Syntax:
     1. General
     ```
@@ -113,6 +128,7 @@ View2: [Youtube](http://www.youtube.com "This is YouTube")
 ```
 
 ## __14. Table__
+
     Syntax:
     | name | email |
     |------|----------------|
@@ -126,6 +142,7 @@ View2: [Youtube](http://www.youtube.com "This is YouTube")
 
 
 ## __15. Check List__
+
     * [x] Apple
     * [ ] Banana
     * [x] Orange
