@@ -7,10 +7,9 @@ ___
 
 <!-- Headings --> 
 ## **1. Heading**
-    Heading 1 using one Hash __#__ sign before line
-    Heading 2 using two Hash __##__
-    Heading 6 using six Hash __######__
-
+    Heading 1: One Hash # sign before line
+    Heading 2: Two Hash ## before line
+    Heading 6: Six Hash ###### before line
 
 
 ## **2. Font Italics**
