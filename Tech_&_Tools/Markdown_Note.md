@@ -1,16 +1,18 @@
-
-<center>
-    <span style="font-size: 3em; color:lightgreen; font-weight:bold;">
+<!-- <center>
+    <p style="font-size: 3em; color:lightgreen; font-weight:bold;">
         Markdown Short Note
-    </span>  
-</center>   
-<br>
+    </p>  
+</center> -->
+---
+## **<p align="center">Markdown Short Note</p>**
+---
 
 ### Markdown Document
->   [Resource 1](https://www.markdownguide.org/basic-syntax/ "Markdownguide") &nbsp;&nbsp; [Resource 2][link] &nbsp;&nbsp; [Resource 3](https://daringfireball.net/projects/markdown/syntax "Daringfireball")
+>   [Resource 1](https://www.markdownguide.org/basic-syntax/ "Markdownguide") &nbsp;&nbsp; [Resource 2][res2] &nbsp;&nbsp; [Resource 3](https://daringfireball.net/projects/markdown/syntax "Daringfireball")
 
 <!-- Link define -->
-[link]: https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet "Squarespace"
+[res2]: https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet "Squarespace"
+<br>
 
 <!-- Headings --> 
 ## **1. Heading**
