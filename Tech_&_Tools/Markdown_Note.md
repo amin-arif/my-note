@@ -1,11 +1,16 @@
 
-___
-## __Markdown Short Note__
-___
+<center>
+    <span style="font-size: 3em; color:lightgreen; font-weight:bold;">
+        Markdown Short Note
+    </span>  
+</center>   
 <br>
 
 ### Markdown Document
->   [Resource 1](https://www.markdownguide.org/basic-syntax/ "Simple note") &nbsp; &nbsp; [Resource 2](https://daringfireball.net/projects/markdown/syntax)
+>   [Resource 1](https://www.markdownguide.org/basic-syntax/ "Markdownguide") &nbsp;&nbsp; [Resource 2][link] &nbsp;&nbsp; [Resource 3](https://daringfireball.net/projects/markdown/syntax "Daringfireball")
+
+<!-- Link define -->
+[link]: https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet "Squarespace"
 
 <!-- Headings --> 
 ## **1. Heading**
@@ -130,14 +135,14 @@ View2: [Youtube](http://www.youtube.com "This is YouTube")
 ## __14. Table__
 
     Syntax:
-    | name | email |
-    |------|----------------|
-    | Arif | arif@gmail.com |
+    | name    | email          |
+    | ------- | -------------- |
+    | Arif    | arif@gmail.com |
     | Al Amin | amin@gmail.com |
 
-| name | email |
-|------|----------------|
-| Arif | arif@gmail.com |
+| name    | email          |
+| ------- | -------------- |
+| Arif    | arif@gmail.com |
 | Al Amin | amin@gmail.com |
 
 
@@ -149,6 +154,12 @@ View2: [Youtube](http://www.youtube.com "This is YouTube")
 * [x] Apple
 * [ ] Banana
 * [x] Orange
+
+
+## __16. Text Align Center__
+
+    <center>Allahu-Akbar Subhan'Allah Alhamdulillah</center> 
+**<center>Allahu-Akbar &nbsp; Subhan'Allah &nbsp; Alhamdulillah</center>**
 
 
 
