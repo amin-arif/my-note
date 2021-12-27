@@ -1,5 +1,5 @@
 
-<p align="center" style="font-size: 5em; color:lightgreen; font-weight:bold;">
+<p align="center" font-size= "3em" color="lightgreen" font-weight="bold">
     Markdown Short Note
 </p>  
 <br>
