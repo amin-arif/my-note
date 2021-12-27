@@ -1,8 +1,4 @@
-<!-- <center>
-    <p style="font-size: 3em; color:lightgreen; font-weight:bold;">
-        Markdown Short Note
-    </p>  
-</center> -->
+
 ---
 ## **<p align="center">Markdown Short Note</p>**
 ---
