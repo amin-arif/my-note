@@ -1,9 +1,7 @@
 
-<center>
-    <p style="font-size: 3em; color:lightgreen; font-weight:bold;">
-        Markdown Short Note
-    </p>  
-</center>   
+<p align="center" style="font-size: 5em; color:lightgreen; font-weight:bold;">
+    Markdown Short Note
+</p>  
 <br>
 
 ### Markdown Document
