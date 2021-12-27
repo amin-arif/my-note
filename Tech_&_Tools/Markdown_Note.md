@@ -1,7 +1,6 @@
 
 ---
-## **<p align="center">Markdown Short Note</p>**
----
+# **<p align="center" f>Markdown Short Note</p>**
 
 ### Markdown Document
 >   [Resource 1](https://www.markdownguide.org/basic-syntax/ "Markdownguide") &nbsp;&nbsp; [Resource 2][res2] &nbsp;&nbsp; [Resource 3](https://daringfireball.net/projects/markdown/syntax "Daringfireball")
