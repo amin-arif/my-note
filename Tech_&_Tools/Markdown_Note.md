@@ -1,10 +1,7 @@
 
-<!-- ___ -->
+___
 ## __Markdown Short Note__
-
-kanon
-==========================
-<!-- ___ -->
+___
 <br>
 
 ### Markdown Document
