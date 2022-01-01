@@ -113,3 +113,18 @@ Create a form with html:
         <button type="button">Cancel</button>
     </form>
 <br>
+
+### **13. Favicon**  
+Favicon is a small image of tab in browser which next to the page title. A common name for a favicon image is "favicon.ico". 
+
+    <head>
+        <title>PageTitle<title>
+        <link rel="fav icon" type="image/x-icon" href="myFavcon.ico">
+    </head>
+<br>
+
+### **14. Comment**  
+For comment some text or portion:   
+
+    <!-- This is commment tag -->
+<br>
