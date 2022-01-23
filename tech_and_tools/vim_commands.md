@@ -47,7 +47,7 @@ Where last edited (place)
 
         Ctrl + r
 
-## 6. **Delete**
+## 6. **Delete (Cutting)**
 
 1. Delete a line in command mode
 
@@ -75,8 +75,36 @@ Where last edited (place)
         %d
 
 
-## 7. **Insert / Paste**
-## 8. **Update**
+## 7. **Copy (Yanking)**
+
+1. Normal way (First select the portion)
+
+        Ctrl + Insert
+
+
+## 8. **Paste (Putting)**
+
+1. Normal way
+
+        Shift + Insert
+
+## 9. **Searching**
+
+1. Search a text
+
+        /[search_text]
+
+        1. Press 'n' go to next match
+        2. Press 'N' go to previous match
+
+2. Search & Replace
+
+        1. Replace one by one
+                :%s/[search_text]/[replace_text]/gc
+
+        2. Change 
+                :%/[search_text]/[replace_text]/g
+
 
 
 
