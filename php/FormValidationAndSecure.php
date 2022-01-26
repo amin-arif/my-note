@@ -1,7 +1,7 @@
 <?php
 
-$name = $email = $url = $password = "";
-$nameErr = $emailErr = $urlErr = $passwordErr = "";
+$name = $gender = $email = $url = $password = "";
+$nameErr = $genderErr = $emailErr = $urlErr = $passwordErr = "";
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (empty($_POST['name'])) {
@@ -12,6 +12,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if (!preg_match("/^[a-zA-Z-' ]*$/", $name)) {
             $nameErr = "Only letters and whitespace allowed";
         }
+    }
+
+    if (empty($_POST['gender'])) {
+        $genderErr = "Gender Required!";
+    } else {
+        $gender = validateData($_POST['gender']);
     }
 
     if (empty($_POST['email'])) {
@@ -71,6 +77,14 @@ function validateData($data)
             <span>Name: </span>
             <input type="text" name="name" value="<?php echo $name; ?>"> <br>
             <span style="color: red;"><?php echo $nameErr; ?></span>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Gender Section</legend>
+                <label for="male"><input type="radio" value="male" name="gender" id="male" <?php if(isset($gender) && $gender == "male") {echo "checked";} ?> >Male</label>
+                <label for="female"><input type="radio" value="female" name="gender" id="female" <?php if(isset($gender) && $gender == "female") {echo "checked";} ?>>Female</label> <br>
+                <span style="color: red;"><?php echo $genderErr; ?></span>
+            </fieldset>
         </div>
         <div>
             <span>Email: </span>
