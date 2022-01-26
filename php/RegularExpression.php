@@ -2,7 +2,7 @@
 
 //------------ Regular Expression ------------------\\
 
-// src1: https://www.w3schools.com/php/php_regex.asp
+// Resource: https://www.w3schools.com/php/php_regex.asp
 
 // A regular expression is a sequence of characters that forms a search pattern.
 // A regular expression can be a single character, or a more complicated pattern.
@@ -41,7 +41,7 @@ echo $re->searchByText($pattern1, $str1) . "\n";
 
 
 $str2 = "Bangladesh is a beautiful Country. It is a small country.";
-$pattern2 = "/is/"; // case-sensitive search
+$pattern2 = "/is|eau/"; // case-sensitive search; | = or type matching
 
 echo "Total found: " . $re->searchByTextWithCount($pattern2, $str2) . "\n"; 
 
