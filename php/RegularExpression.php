@@ -21,7 +21,7 @@ class RegularExpression
     }
 
     public function searchByTextWithCount($pattern, $str)
-    {
+    {   
         return preg_match_all($pattern, $str); // Returns the number of times the pattern was found in the string, which may also be 0
     }
 
