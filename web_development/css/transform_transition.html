@@ -6,7 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transform-Transition</title>
     <style>
-        div {
+        body {
+            display: flex;
+        }
+        /* Transform */
+        #transform {
+            width: 500px;
+        }
+        #transform div {
             width: 200px;
             height: 200px;
         }
@@ -19,22 +26,73 @@
             border: 2px solid black;
             transform: scale(.6) rotate(45deg) ;
         }
+        .skew {
+            background-color: yellowgreen;
+            /* transform: skew(20deg); */
+            transform: skewY(-20deg);
+        }
+        .translate {
+            background-color: blueviolet;
+            transform: translate(40px, 30px); /*Move axis wise*/
+        }
 
+        /* Transition */
+        #transition div {
+            width: 100px;
+            height: 100px;
+            margin-top: 10px;
+        }
+        #transition div:hover {
+            width: 200px;
+            height: 200px;
+        }
+        #box1 {
+            background-color: green;
+            transition: width 2s, height 5s ease;
+        }
+        #box2:hover {
+            transform: rotate(180deg);
+        }
+        #box2 {
+            background-color: aquamarine;
+            transition: width 3s, height 3s, transform 5s linear;
+        }
+        #box3 {
+            background-color: crimson;
+            transition: width 3s ease-in-out 2s, height 2s;
+        }
     </style>
 </head>
 <body>
-    <h1>Transform, Transition Element</h1>
-    <div class="outer">
-        <div class="inner">Alhamdulillah</div>
-    </div>
-    <div class="outer">
-        <div class="inner">Alhamdulillah</div>
-    </div>
-    <div class="outer">
-        <div class="inner">Alhamdulillah</div>
-    </div>
-    <div class="outer">
-        <div class="inner">Alhamdulillah</div>
-    </div>
+    <section id="transform">
+        <h1>Transform Property</h1>
+        <div class="outer">
+            <div class="inner">
+                scale(.6) <br>
+                rotate(45deg) 
+            </div>
+        </div>
+        <div class="skew">
+            skewY(-20deg)
+        </div>
+        <div class="translate">
+            translate(40px, 30px)
+        </div>
+    </section>
+    <section id="transition">
+        <h1>Transition Property</h1>
+        <div id="box1">
+            width 2s <br>
+            height 5s ease
+        </div>
+        <div id="box2">
+            rotate(180deg) <br>
+            width 3s, height 3s, transform 5s
+        </div>
+        <div id="box3">
+            width 3s ease-in-out 2s <br>
+            height 2s 
+        </div>
+    </section>
 </body>
 </html>
