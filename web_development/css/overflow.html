@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .keyword {
+            width: 100px;
+            height: 30px;
+            border: 2px solid blue;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        .article {
+            width: 250px;
+            height: 250px;
+            border: 2px solid rgb(104, 158, 23);
+            overflow: scroll;
+            overflow-x: hidden;
+
+        }
+        .heading {
+            width: 200px;
+            height: 200px;
+            border: 2px solid red;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1>Overflow</h1>
+    <p class="keyword" title="Lorem, ipsum dolor sit amet consectetur adipisicing elit.">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+    <div class="article">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique perspiciatis veritatis vero dolores quas doloremque laboriosam pariatur ullam. Reprehenderit dolores necessitatibus repellat ducimus ipsum, doloribus earum consequatur rerum fuga optio accusamus et excepturi ab quasi tenetur animi quaerat voluptatum illum unde impedit eaque! Iste, eaque excepturi natus sequi recusandae vitae obcaecati officiis fugiat optio fugit, aut explicabo illum ex facilis a est adipisci fuga enim soluta. Atque ipsum eum, doloribus facere temporibus eveniet accusamus vel, debitis sint velit soluta omnis! Quaerat nesciunt unde vel expedita et excepturi nihil soluta, magni voluptatem quia officiis sequi nostrum voluptates deserunt dolore mollitia repellendus.
+    </div>
+    <div class="heading">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates voluptatem et enim ipsam illo quas non officia eveniet, amet vel repudiandae quidem at inventore nemo distinctio quam ea iure blanditiis dolor. Totam nesciunt quisquam dolor nostrum. Eaque recusandae amet impedit veniam corrupti commodi sit quia, ipsum reprehenderit pariatur, voluptas sed!
+    </div>
+</body>
+</html>

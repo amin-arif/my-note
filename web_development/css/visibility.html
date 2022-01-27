@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        #box1 {
+            background: indianred;
+        }
+        #box2 {
+            background-color: seagreen;
+            visibility: hidden; /* It is hide the content only but space keep for element */
+            /* visibility: visible; */ 
+        }
+        #box3 {
+            background-color: sandybrown;
+            display: none; /* Hide the content with space */
+        }
+        #box4 {
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Visibility</h1>
+    <div class="box" id="box1">Hello</div>
+    <div class="box" id="box2">Hello</div>
+    <div class="box" id="box3">Hello</div>
+    <div class="box" id="box4">Hello</div>
+</body>
+</html>
