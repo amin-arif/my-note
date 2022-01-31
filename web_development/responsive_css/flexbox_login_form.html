@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+    <style>
+        nav {
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin-right: 20px;
+            padding: 6px 10px;
+            font-size: 1.3em;
+            font-weight: 700;
+            border-radius: 5px;
+        }
+        nav .menu a {
+            background-color: indianred;
+        }
+        nav .user a {
+            background-color: purple;
+            
+        }
+        .login-section {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+        }
+        .login-form {
+            border-radius: 5px;
+            background-color:rgb(250, 224, 190);
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            font-size: 1.2em;
+            font-weight: 700;
+            padding: 10px 20px 30px 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        label {
+            display: flex;
+            flex-direction: column;
+        }
+        .login-form input, button {
+            border: 0;
+            border-radius: 5px;
+            padding: 10px 0;
+            margin: 10px 0;
+        }
+        .login-form input {
+            padding-left: 20px;
+        }
+        .login-form button {
+            font-size: large;
+            font-weight: 700;
+            color: white;
+            background-color:darkorange;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="menu">
+                <a href="#">Home</a>
+                <a href="#">Items</a>
+                <a href="#">Category</a>
+                <a href="#">About us</a>
+            </span>
+            <span class="user">
+                <a href="#"><i class="fas fa-user-circle"></i></a>
+                <a href="#"><i class="fas fa-sign-out-alt"></i></a>
+            </span>
+        </nav>
+    </header>
+    <section class="login-section">
+        <form action="" class="login-form">
+            <h1>Login</h1>
+            <label for="username">
+                Username
+                <input type="text" name="username" id="username" placeholder="Enter your username">
+            </label>
+            <label for="password">
+                password
+                <input type="password" name="password" id="password" placeholder="Enter your password">
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
