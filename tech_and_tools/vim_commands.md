@@ -105,6 +105,11 @@ Where last edited (place)
         2. Change 
                 :%/[search_text]/[replace_text]/g
 
+3. Search using line number
+
+        :[line_number]   
+        Example (:12)
+
 
 
 
