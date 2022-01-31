@@ -9,11 +9,11 @@
         .container {
             display: flex;
             width: 800px;
-            height: 400px;
+            height: 300px;
             border: 3px dashed orange;
             justify-content: space-evenly;
-            /* align-items: stretch;*/ /*It works when item itself have no fixed height.*/
             align-items: center;
+            /* align-items: stretch;*/ /*It works when item itself have no fixed height.*/
         }
         .box {
             width: 100px;
@@ -32,6 +32,28 @@
         #box4 {
             order: 4;
         }
+        .content {
+            margin-top: 5px;
+            background-color: aliceblue;
+            border: 3px solid blue;
+            width: 600px;
+            height: 200px;
+            display: flex;
+            align-items: stretch;
+            justify-content: space-evenly;
+            padding: 2px;
+        }
+        .content div {
+            border: 3px solid orange;
+            padding: 5px;
+        }
+        .menu {
+            width: 300px;
+            margin-right: 2px;   
+        }
+        .article {
+            flex-grow: 1; /* It takes rest of space of content part*/
+        }
     </style>
 </head>
 <body>
@@ -41,6 +63,12 @@
         <div id="box2" class="box">ITEM-2</div>
         <div id="box3" class="box">ITEM-3</div>
         <div id="box4" class="box">ITEM-4</div>
+    </div>
+    <div class="content">
+        <div class="menu">Menu Section</div>
+        <div class="article">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consequuntur soluta sequi ipsa perferendis quibusdam numquam corrupti ipsam quo quod voluptatum sed mollitia, corporis reprehenderit voluptatibus velit ab, iste consectetur?
+        </div>
     </div>
 </body>
 </html>
