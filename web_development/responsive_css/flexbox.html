@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            width: 800px;
+            height: 400px;
+            border: 3px dashed orange;
+            justify-content: space-evenly;
+            /* align-items: stretch;*/ /*It works when item itself have no fixed height.*/
+            align-items: center;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 3px solid greenyellow;
+        }
+        #box1 {
+            order: 2;
+        }
+        #box2 {
+            order: 1;
+        }
+        #box3 {
+            order: 3;
+        }
+        #box4 {
+            order: 4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox</h1>
+    <div class="container">
+        <div id="box1" class="box">ITEM-1</div>
+        <div id="box2" class="box">ITEM-2</div>
+        <div id="box3" class="box">ITEM-3</div>
+        <div id="box4" class="box">ITEM-4</div>
+    </div>
+</body>
+</html>
