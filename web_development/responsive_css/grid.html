@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 200px);
+            /* grid-template-columns: 100px 100px 100px; */
+            /* grid-template-columns: repeat(4, 1fr);*/ /*Four columns in same fraction (width) size */
+            /* grid-template-columns: repeat(4, 25%); */
+            grid-gap: 20px;
+        }
+        .grid-cell {
+            border: 1px solid black;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Grid</h1>
+    <div class="grid-container">
+        <div class="grid-cell">Cell-1</div>
+        <div class="grid-cell">Cell-2</div>
+        <div class="grid-cell">Cell-3</div>
+        <div class="grid-cell">Cell-4</div>
+        <div class="grid-cell">Cell-5</div>
+        <div class="grid-cell">Cell-6</div>
+        <div class="grid-cell">Cell-7</div>
+        <div class="grid-cell">Cell-8</div>
+        <div class="grid-cell">Cell-9</div>
+        <div class="grid-cell">Cell-10</div>
+        <div class="grid-cell">Cell-11</div>
+        <div class="grid-cell">Cell-12</div>
+        <div class="grid-cell">Cell-13</div>
+        <div class="grid-cell">Cell-14</div>
+        <div class="grid-cell">Cell-15</div>
+        <div class="grid-cell">Cell-16</div>
+    </div>
+</body>
+</html>
