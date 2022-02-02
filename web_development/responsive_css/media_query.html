@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container {
+            display: flex;
+            /* flex-wrap: wrap; */ /*It makes the content responsive*/
+        }
+        .product-container {
+            width: 250px;
+            border: 2px solid seagreen;
+            margin: 5px;
+            text-align: center;
+        }
+        .product-container img {
+            width: 90%;
+            
+        }
+        @media (max-width: 400px) {
+            .container {
+                background-color: antiquewhite;
+                flex-direction: column;
+            }
+        }
+        @media (min-width: 401px) and (max-width: 850px) {
+            .container {
+                background-color: rgb(205, 245, 245);
+                flex-wrap: wrap;
+            }
+        }
+        @media (min-width: 851px) {
+            .container {
+                background-color:cadetblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Media Query</h1></header>
+    <main>
+        <div class="container">
+            <div class="product-container">
+                <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1547&q=80" alt="">
+                <h2>Price 300</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorem sequi sed omnis alias deleniti quae pariatur sint exercitationem impedit!</p>
+            </div>
+            <div class="product-container">
+                <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1547&q=80" alt="">
+                <h2>Price 301</h2>
+                <p>Sit vitae nostrum eveniet enim quisquam veritatis consequuntur rerum! Eum, esse explicabo numquam labore eligendi enim iste veritatis quos exercitationem!</p>
+            </div>
+            <div class="product-container">
+                <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1547&q=80" alt="">
+                <h2>Price 302</h2>
+                <p>In doloremque blanditiis aliquid soluta, possimus cumque esse? Enim possimus commodi officiis eos perferendis esse debitis, fugit obcaecati necessitatibus ex!</p>
+            </div>
+            <div class="product-container">
+                <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1547&q=80" alt="">
+                <h2>Price 303</h2>
+                <p>Voluptatibus, tempora atque inventore labore, accusamus perferendis officia porro, dolorum voluptates ullam reprehenderit exercitationem ipsum minima! Obcaecati suscipit possimus nulla.</p>
+            </div>
+            <div class="product-container">
+                <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1547&q=80" alt="">
+                <h2>Price 304</h2>
+                <p>Similique cupiditate aperiam harum, quod repudiandae accusamus placeat, ducimus numquam eveniet iste nulla atque nisi natus inventore praesentium incidunt labore.</p>
+            </div>
+            <div class="product-container">
+                <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1547&q=80" alt="">
+                <h2>Price 305</h2>
+                <p>Sed necessitatibus explicabo labore laudantium officiis quia laborum enim perferendis amet ipsam perspiciatis velit id, itaque, tempora vero excepturi asperiores.</p>
+            </div>
+            <div class="product-container">
+                <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1547&q=80" alt="">
+                <h2>Price 306</h2>
+                <p>At animi omnis nam? Incidunt voluptatibus natus esse exercitationem saepe praesentium. Maiores, mollitia quae rerum error aut perferendis accusamus assumenda.</p>
+            </div>
+            <div class="product-container">
+                <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1547&q=80" alt="">
+                <h2>Price 307</h2>
+                <p>Exercitationem, voluptatum minus provident corrupti praesentium reiciendis vel minima fuga officiis quam repellat voluptatem cumque accusantium libero culpa laborum in.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
