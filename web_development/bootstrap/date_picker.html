@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Picker</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+<body>
+   <h1>Bootstrap Datepicker</h1>
+   <div class="bootstrap-iso">
+       <div class="container-fluid">
+           <div class="row">
+               <form action="" method="post">
+                   <div class="form-group">
+                       <label for="date-input">Input Date: <input type="text" name="date" id="date-input"></label>
+                   </div>
+                   <div class="form-group">
+                       <button type="submit">Submit</button>
+                   </div>
+               </form>
+           </div>
+       </div>
+   </div>
+   <script>
+        $('#date-input').datepicker({ dateFormat: 'yy-mm-dd' });
+   </script>
+</body>
+</html>
