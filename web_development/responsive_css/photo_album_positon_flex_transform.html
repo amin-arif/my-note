@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+        }
+        .photo-frame {
+            width: 250px;
+            height: auto;
+            border: 2px solid greenyellow;
+            border-radius: 3px;
+            position: relative;
+            margin: 5px;
+            overflow: hidden;
+        }
+        .photo img {
+            width: 100%;
+        }
+        .photo-detail {
+            position: absolute;
+            width: 250px;
+            display: none;
+            top: 0;
+        }
+        .photo-detail h3 {
+            background-color: rgba(0, 128, 0, 0.397);
+            color: whitesmoke;
+            text-align: center;
+        }
+        .photo-frame:hover .photo-detail {
+            display: block;
+        }
+        .photo-frame:hover .photo {
+            transform: scale(1.4);
+            transition: transform 2s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <h1>Photo Album</h1>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="A tree in green field">
+            </div>
+            <div class="photo-detail">
+                <h3>Photo Title</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime velit nobis beatae repellat deleniti possimus voluptatibus excepturi, laborum aspernatur!
+                </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="A tree in green field">
+            </div>
+            <div class="photo-detail">
+                <h3>Photo Title</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime velit nobis beatae repellat deleniti possimus voluptatibus excepturi, laborum aspernatur!
+                </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="A tree in green field">
+            </div>
+            <div class="photo-detail">
+                <h3>Photo Title</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime velit nobis beatae repellat deleniti possimus voluptatibus excepturi, laborum aspernatur!
+                </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="A tree in green field">
+            </div>
+            <div class="photo-detail">
+                <h3>Photo Title</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime velit nobis beatae repellat deleniti possimus voluptatibus excepturi, laborum aspernatur!
+                </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="A tree in green field">
+            </div>
+            <div class="photo-detail">
+                <h3>Photo Title</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime velit nobis beatae repellat deleniti possimus voluptatibus excepturi, laborum aspernatur!
+                </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="A tree in green field">
+            </div>
+            <div class="photo-detail">
+                <h3>Photo Title</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime velit nobis beatae repellat deleniti possimus voluptatibus excepturi, laborum aspernatur!
+                </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="A tree in green field">
+            </div>
+            <div class="photo-detail">
+                <h3>Photo Title</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime velit nobis beatae repellat deleniti possimus voluptatibus excepturi, laborum aspernatur!
+                </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="A tree in green field">
+            </div>
+            <div class="photo-detail">
+                <h3>Photo Title</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime velit nobis beatae repellat deleniti possimus voluptatibus excepturi, laborum aspernatur!
+                </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="A tree in green field">
+            </div>
+            <div class="photo-detail">
+                <h3>Photo Title</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime velit nobis beatae repellat deleniti possimus voluptatibus excepturi, laborum aspernatur!
+                </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="A tree in green field">
+            </div>
+            <div class="photo-detail">
+                <h3>Photo Title</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime velit nobis beatae repellat deleniti possimus voluptatibus excepturi, laborum aspernatur!
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
