@@ -9,6 +9,7 @@
 body {
     background-color:#dad8e6;
     font-family: 'Exo 2', sans-serif;
+    margin-top: 30px;
 }
 main {
     display: flex;
@@ -20,7 +21,7 @@ main {
     width: 800px;
     padding: 30px;
     border-radius: 5px;
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .section-title {
     color: rgb(6, 63, 219);
@@ -99,6 +100,11 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
 }
+.course {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 5px #d1d1d1;
+}
 .course-banner img {
     width: 224px;
     height: 120px;
@@ -125,4 +131,52 @@ main {
     background-color: rgba(255, 0, 0, 0.144);
     color: red;
     border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+/*----------------------------
+    Media Queries 
+-----------------------------*/
+
+/* for mobile devices */
+@media only screen and (max-width: 688px) {
+    .container {
+        width: 100%;
+        align-items: center;
+    }
+    .teachers, .blogs, .courses {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .teacher, .blog img, .courses {
+        padding-left: 20px;
+    }
+    .blog {
+        flex-direction: column;
+        align-items: normal;
+    }
+    .courses {
+        grid-row-gap: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* for tab devices */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .container {
+        width: 80%;
+    }
+    .courses {
+        width: 90%;
+    }
+    .teachers {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
