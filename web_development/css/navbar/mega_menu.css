@@ -1,0 +1,19 @@
+.mega-menu {
+    background-color:antiquewhite;
+    position: absolute;
+    display: none;
+    padding: 20px;
+}
+nav>ul>li:hover>.mega-menu {    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.mega-menu h3 {
+    color: blue;
+    margin-bottom: 5px;
+}
+.mega-menu a {
+    text-decoration: none;
+    color: black;
+}
