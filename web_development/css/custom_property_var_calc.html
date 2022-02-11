@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        /* declare custom property */
+        :root {
+            --headlineColor: blue;
+            --articleColor: green;
+            --menuColor: red;
+            --footerColor: rgb(43, 43, 9);
+            --height: 300px;
+        }
+
+        header h1 {
+            /* use custom property using var */
+            color: var(--headlineColor);
+        }
+        .menu {
+            float: left;
+            width: 200px;
+            background-color: rgb(175, 207, 235);
+        }
+        .article {
+            background-color: aqua;
+            width: calc(100% - 200px);
+        }
+        .menu, .article {
+            padding: 10px;
+            height: var(--height);
+        }
+        .menu ul {
+            color: var(--menuColor);
+            list-style: none;
+        }
+        footer {
+            clear: both;
+            color: var(--footerColor);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- CSS functions are var, calc, url, rotate etc -->
+    <header>
+        <h1>Learn Custom Property(Variable) and Calc</h1>
+    </header>
+    <main>
+        <aside class="menu">
+            <ul>
+                <li>International</li>
+                <li>Bangladesh</li>
+                <li>Economy</li>
+                <li>Sports</li>
+                <li>Opinios</li>
+            </ul>
+        </aside>
+        <div class="article">
+            <h2>Bangladesh is a beautiful country</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus modi, impedit, nobis cumque cum deserunt reiciendis ullam optio aliquam error amet molestiae provident exercitationem libero facere. Sunt nobis beatae quisquam!
+            </p>
+        </div>
+    </main>
+    <footer>
+        <small>news copyright 2022</small>
+    </footer>
+</body>
+</html>
