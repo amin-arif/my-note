@@ -14,7 +14,12 @@
         symfony server:stop
 <br>
 
-## **2. User Password Change**
+## **2. Cache Clear**
+
+    php bin/console cache:clear
+<br>
+
+## **3. User Password Change**
 
     php bin/console fos:user:change
 <br>
