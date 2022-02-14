@@ -1,25 +1,28 @@
-#### HTML5 Tags
+#### Online Photo Editing
+	https://www.photopea.com/
 
+
+#### HTML5 Tags
 	https://www.tutorialrepublic.com/html-reference/html5-tags.php
 
 
 #### CSS3 Properties
+	https://www.tutorialrepublic.com/css-reference/css3-properties.php	
 
-	https://www.tutorialrepublic.com/css-reference/css3-properties.php
-	
 
 #### CSS Advanced Selectors
-
 	https://www.smashingmagazine.com/2009/08/taming-advanced-css-selectors/
+
 	
-
 #### CSS Standard | Guideline
-
 	http://getbem.com/introduction/
 	https://github.com/airbnb/css
 
 
 #### CSS
-
 	https://css-tricks.com/
+
+
+#### Simple Styles for Horizontal Rules
+	https://css-tricks.com/simple-styles-for-horizontal-rules/
 	
