@@ -2,7 +2,7 @@
     background-color:antiquewhite;
     position: absolute;
     display: none;
-    padding: 20px;
+    padding: 20pxb;
 }
 nav>ul>li:hover>.mega-menu {    
     display: grid;
