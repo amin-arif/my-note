@@ -19,8 +19,21 @@
     php bin/console cache:clear
 <br>
 
+## **3. Project create**
+
+1. Create project for traditional web application
+
+        composer create-project symfony/skeleton project_dir
+        cd project_dir
+        composer require webapp
+2. Create project for a microservice, console or API
+
+        composer create-project symfony/skeleton project_dir
+<br>
+
 ## **3. User Password Change**
 
     php bin/console fos:user:change
 <br>
+
 
