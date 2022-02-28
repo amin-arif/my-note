@@ -31,7 +31,7 @@
         composer create-project symfony/skeleton project_dir
 <br>
 
-## **3. User Password Change**
+## **4. User Password Change**
 
     php bin/console fos:user:change
 <br>
