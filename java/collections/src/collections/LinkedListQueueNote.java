@@ -2,7 +2,7 @@ package collections;
 
 import java.util.*;
 
-public class LinkedListNote {
+public class LinkedListQueueNote {
 	public static void main(String[] args) {
 		Queue<String> queue = new LinkedList<>();
 		
