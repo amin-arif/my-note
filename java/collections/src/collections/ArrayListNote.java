@@ -4,7 +4,10 @@ import java.util.*;
 public class ArrayListNote {
 	public static void main(String[] args) {
 		
-		ArrayList<String> list = new ArrayList<>();
+		List<String> list = new ArrayList<>();
+		
+		// LinkedList same as ArrayList. All method works in both list
+		// List<String> list = new LinkedList<>();
 		
 		list.add("Arif"); // Add element in list
 		list.add("Al Amin");
