@@ -1,6 +1,7 @@
 package collections;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class HashSetNote {
@@ -9,6 +10,9 @@ public class HashSetNote {
 		// Set doesn't allow duplicate value
 		// HahsSet doesn't maintain the orders of its elements
 		Set<Integer> mySet = new HashSet<>();
+		
+		// LinkedHashSet also same as HashSet but it maintains the order of its elements
+		// Set<Integer> linkedHashSet = new LinkedHashSet<>();
 		
 		mySet.add(5);
 		mySet.add(24);
