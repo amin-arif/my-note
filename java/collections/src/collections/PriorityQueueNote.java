@@ -4,7 +4,7 @@ import java.util.*;
 
 public class PriorityQueueNote {
 	public static void main(String[] args) {
-		PriorityQueue<Integer> pq = new PriorityQueue<>(); // Default it works as a MinHeap (Give priority lowest value of list) 
+		PriorityQueue<Integer> pq = new PriorityQueue<>(); // Default it works as a MinHeap (Give priority lowest value of the list) 
 		
 		// Now it works Priority Queue Works as MaxHeap
 		// PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());

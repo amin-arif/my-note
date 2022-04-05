@@ -23,6 +23,8 @@ public class ArrayDequeNote {
 		
 		System.out.println(adq);
 		System.out.println("Poll Last: " + adq.pollLast()); // Remove last element from array
-		System.out.println("Poll First: " + adq.peekFirst()); // Remove first element from array
+		System.out.println("Poll First: " + adq.pollFirst()); // Remove first element from array
+		
+		System.out.println(adq);
 	}
 }
