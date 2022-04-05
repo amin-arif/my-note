@@ -3,6 +3,7 @@ package collections;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class HashSetNote {
 	
@@ -13,6 +14,10 @@ public class HashSetNote {
 		
 		// LinkedHashSet also same as HashSet but it maintains the order of its elements
 		// Set<Integer> linkedHashSet = new LinkedHashSet<>();
+		
+		// TreeSet implements Set interface that uses a tree for storage
+		// The elements of value is sorted in ascending order
+		// Set<Integer> mySet = new TreeSet<>();
 		
 		mySet.add(5);
 		mySet.add(24);
