@@ -7,12 +7,14 @@ public class HashSetNote {
 	
 	public static void main(String[] args) {
 		// Set doesn't allow duplicate value
+		// HahsSet doesn't maintain the orders of its elements
 		Set<Integer> mySet = new HashSet<>();
 		
 		mySet.add(5);
 		mySet.add(24);
 		mySet.add(5); // It not include in list (because it already exists)
 		mySet.add(11);
+		mySet.add(20);
 		
 		System.out.println(mySet);
 		
