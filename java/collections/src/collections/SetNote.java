@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class HashSetNote {
+public class SetNote {
 	
 	public static void main(String[] args) {
 		// Set doesn't allow duplicate value
