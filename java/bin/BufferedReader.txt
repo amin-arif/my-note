@@ -1,0 +1,10 @@
+In this java programming tutorial, we will study and understand the 2 different ways in which we can take input from users in java. The 2 ways are - 
+1. By using objects of Scanner Class 
+2. By using object of BufferedReader Class
+
+There are some differences between the 2 as follows - 
+1. BufferedReader is synchronous while Scanner is not. 
+2. BufferedReader should be used if we are working with multiple threads.
+3. BufferedReader has significantly larger buffer memory than Scanner.
+4. The Scanner has a little buffer (1KB char buffer) as opposed to the BufferedReader (8KB byte buffer), but it’s more than enough.
+5. BufferedReader is a bit faster as compared to scanner because scanner does parsing of input data and BufferedReader simply reads sequence of characters.
