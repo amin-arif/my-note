@@ -1,6 +1,6 @@
 package lamdas;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class Main {
 
@@ -24,17 +24,13 @@ public class Main {
 		int result = calc.calculate(5, 7);
 		System.out.println("Calclation result:" + result);
 		
-		
-		
 		ArrayList<Integer> ageList = new ArrayList<>();
 		
 		ageList.add(5);
 		ageList.add(20);
 		ageList.add(55);
 		
-		ageList.forEach(item -> System.out.println("Item: " + item));
-		
-		
+		ageList.forEach(item -> System.out.println("Item: " + item));		
 	}
 
 	
