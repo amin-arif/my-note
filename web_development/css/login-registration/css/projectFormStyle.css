@@ -1,0 +1,104 @@
+.projectFormContainer{
+    margin: 10;
+    width: 850px;
+    height: 400px;
+    margin: 40px auto;
+    background:  rgb(192, 218, 208);
+    position: relative;
+    border-radius: 5px;
+}
+
+.projectFormContainer h1{
+    font-size: 27px;
+    color: white;
+    background-color:darkcyan;
+    padding: 7px 0px 7px 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.projectFormContainer table{
+    position: relative;
+    top: -15px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 93%;
+}
+
+.projectFormContainer td{
+    /* border: 1px solid #272525; */
+    text-align: left;
+    padding: 10px;
+  }
+.semicolon{
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+
+.textField{
+    width: 210px;
+    padding: 5px;
+    border-radius: 4px;
+}
+.dropdownField{
+    width: 210px;
+    padding: 5px;
+    border-radius: 4px;
+    border-width: 2px;
+    cursor: pointer;
+}
+.dateField{
+    width: 210px;
+    padding: 3px;
+    border-radius: 4px;
+    cursor: text;
+}
+.description{
+    font-family: arial, sans-serif;
+    position: relative;
+    top: -65px;
+    left: 64px;
+}
+.description span{
+    position: relative;
+    top: -62px;
+}
+.description .semicolon{
+    position: relative;
+    left: 10px;
+}
+.descriptionField{
+    position: relative;
+    left: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    border-width: 2px;
+    width: 601px;
+    height: 76px;
+}
+
+.button{
+    position: relative;
+    top: -37px;
+    left: 40%;
+}
+.button input{
+    padding: 7px 30px;
+    border-radius: 5px;
+    background-color: rgb(8, 163, 8);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.button a{
+    position: relative;
+    top: 1px;
+    padding: 8px 23px;
+    border-radius: 5px;
+    background-color: rgb(158, 5, 13);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}

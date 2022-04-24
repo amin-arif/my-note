@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/navbarStyle.css">
+    <link rel="stylesheet" href="../css/projectFormStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Candal&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Project Form</title>
+</head>
+<body>
+    <nav>
+        <label class="logo">Project Dashboard</label>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="#"><i class="fa fa-home" aria-hidden="true">&nbsp;Home</i></a></li>
+            <li><a href="#"><i class="fa fa-suitcase" aria-hidden="true">&nbsp;Projects</i></a></li>
+            <li><a href="#"><i class="fa fa-users" aria-hidden="true">&nbsp;Users</i>
+                </a></li>
+            <!-- <li><a href="#">Sign UP</a></li>
+            <li><a href="#">Login</a></li> -->
+            <li>
+                <a class="active" href="#">
+                    <i class="fa fa-user">&nbsp;Arif</i>
+                    <i class="fa fa-chevron-down"></i>
+                </a>
+                <div class="profileMenu">
+                    <ul>
+                        <li><a href="#" class="profile"><i class="far fa-user-circle"></i>&nbsp;Profile</a></li>
+                        <li><a href="#" class="logout"><i class="fas fa-sign-out-alt"></i>&nbsp;Logout</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="projectFormContainer">
+        <h1>New Project</h1>
+
+        <form method="POST" action="">
+            <table>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>Name</td>
+                                <td>
+                                    <span class="semicolon">:</span>
+                                    <input class="textField" type="text" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Sponsor</td>
+                                <td>
+                                    <span class="semicolon">:</span>
+                                    <select class="dropdownField" name="sponsor" required>
+                                        <option value="" disabled selected>Select Sponsor</option>
+                                        <option value="biTS">biTS</option>
+                                        <option value="Arong">Arong</option>
+                                        <option value="LICT">LICT</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Start Date</td>
+                                <td>
+                                    <span class="semicolon">:</span>
+                                    <input class="dateField" type="date" required>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>Code</td>
+                                <td>
+                                    <span class="semicolon">:</span>
+                                    <input class="textField" type="text" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Status</td>
+                                <td>
+                                    <span class="semicolon">:</span>
+                                    <select class="dropdownField" name="status" required>
+                                        <option value="" disabled selected>Select Status</option>
+                                        <option value="Active">Active</option>
+                                        <option value="Closed">Closed</option>
+                                        <option value="Hold">Hold</option>
+                                        <option value="Abandoned">Abandoned</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>End Date</td>
+                                <td>
+                                    <span class="semicolon">:</span>
+                                    <input class="dateField" type="date" required>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="description">
+                <span class="des">Description</span>
+                <span class="semicolon">:</span>
+                <textarea name="textarea" class="descriptionField" cols="" rows="5" required></textarea>
+                <!-- <input class="descriptionField" type="text"required> -->
+            </div>
+            <div class="button">
+                <input type="submit" value="Save">
+                <a href="#">Cancel</a>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

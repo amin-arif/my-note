@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/navbarStyle.css">
+    <link rel="stylesheet" href="../css/usersStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Candal&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Users</title>
+</head>
+<body>
+    <nav>
+        <label class="logo">Project Dashboard</label>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="#"><i class="fa fa-home" aria-hidden="true">&nbsp;Home</i></a></li>
+            <li><a href="#"><i class="fa fa-suitcase" aria-hidden="true">&nbsp;Projects</i></a></li>
+            <li><a href="#"><i class="fa fa-users" aria-hidden="true">&nbsp;Users</i>
+                </a></li>
+            <!-- <li><a href="#">Sign UP</a></li>
+            <li><a href="#">Login</a></li> -->
+            <li>
+                <a class="active" href="#">
+                    <i class="fa fa-user">&nbsp;Arif</i>
+                    <i class="fa fa-chevron-down"></i>
+                </a>
+                <div class="profileMenu">
+                    <ul>
+                        <li><a href="#" class="profile"><i class="far fa-user-circle"></i>&nbsp;Profile</a></li>
+                        <li><a href="#" class="logout"><i class="fas fa-sign-out-alt"></i>&nbsp;Logout</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="usersContainer">
+        <h1>Users (7)</h1>
+
+        <table>
+            <tr>
+                <th>Name <i class="fas fa-caret-down"></i></th>
+                <th>Age <i class="fas fa-caret-down"></i></th>
+                <th>Gender <i class="fas fa-caret-down"></i></th>
+                <th>Email <i class="fas fa-caret-down"></i></th>
+                <th>Country <i class="fas fa-caret-down"></i></th>
+            </tr>
+            <tr>
+                <td>Md. Al Amin Arif</td>
+                <td>24 years 1 Month</td>
+                <td>Male</td>
+                <td>aminarif.cs@gmail.com</td>
+                <td>Bangladesh</td>
+            </tr>
+            <tr>
+                <td>Kirat Al Mamun</td>
+                <td>26 years</td>
+                <td>Male</td>
+                <td>kirat@gmail.com</td>
+                <td>Bangladesh</td>
+            </tr>
+            <tr>
+                <td>Xiaomi Talukdar</td>
+                <td>8 years</td>
+                <td>Female</td>
+                <td>xiaomi@outlook.com</td>
+                <td>China</td>
+            </tr>
+            <tr>
+                <td>Ashik Talukdar</td>
+                <td>20 years</td>
+                <td>Male</td>
+                <td>ashik@gmail.com</td>
+                <td>Pakistan</td>
+            </tr>
+            <tr>
+                <td>Dina</td>
+                <td>18 years</td>
+                <td>Female</td>
+                <td>dina@hotmail.com</td>
+                <td>India</td>
+            </tr>
+        </table>
+
+        <ul class="pagination">
+            <li><a href="#"><i class="fas fa-angle-left"></i></a></li>
+            <li><a href="#" class="active">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#"><i class="fas fa-angle-right"></i></a></li>
+        </ul>
+
+    </div>
+
+</body>
+</html>

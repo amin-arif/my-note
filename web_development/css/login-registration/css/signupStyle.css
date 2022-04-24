@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background-image: url(../images/blueBackground.jpg);
+    height: 100vh;
+    margin-top: 10px;
+    /*margin: auto;*/
+}
+
+.pname{
+    text-align: center;
+    font-size: 50px;
+    font-family: arial black;
+    color: white;
+    padding: 30 0 100 0;
+}
+
+.main{
+    background-color:whitesmoke;
+    width: 565px;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+.main h1{
+    font-size: 35px;
+    text-align: center;
+    padding: 0 0 10px 0;
+    background-color:dodgerblue;
+    border-radius: 10px 10px 0px 0px; 
+}
+
+form{
+    padding: 0px;
+}
+
+.field span{
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.field input{
+    margin-bottom: 20px;
+    line-height: 30px;
+    outline: none;
+    font-size: 16px;
+    background: rgb(228, 240, 252);
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: cornflowerblue;
+}
+
+.unameField{
+    position: relative;
+    left: 70px;
+    top: 0px;
+    width: 260px;
+    padding: 0 10px;
+}
+
+select.genderField{
+    outline: none;
+    position: relative;
+    left: 56px;
+    top: 0px;
+    width: 284px;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    background: rgb(228, 240, 252);
+    border-color: cornflowerblue;
+    border-width: 2px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dateField{
+    position: relative;
+    left: 77px;
+    top: 0px;
+    width: 240px;
+    padding: 0px 20px;
+    cursor:text ;
+}
+
+.emailField{
+    position: relative;
+    left: 69px;
+    top: 0px;
+    width: 260px;
+    padding: 0 10px;
+}
+
+.passField{
+    position: relative;
+    left: 38px;
+    top: 0px;
+    width: 260px;
+    padding: 0 10px;
+}
+
+.re-passField{
+    position: relative;
+    left: 9px;
+    top: 0px;
+    width: 260px;
+    padding: 0 10px;
+}
+
+.countryField{
+    position: relative;
+    left: 48px;
+    top: 0px;
+    outline: none;
+    padding: 5px 20px;
+    width: 284px;
+    background: rgb(228, 240, 252);
+    border-color: cornflowerblue;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input.submit{
+    position: relative;
+    left: 37.5%;
+    text-align: center;
+    padding: 3px 45px;
+    background: rgb(2, 62, 122);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+

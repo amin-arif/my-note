@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/navbarStyle.css">
+    <link rel="stylesheet" href="../css/projectsStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Candal&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Projects</title>
+</head>
+<body>
+    <nav>
+        <label class="logo">Project Dashboard</label>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="#"><i class="fa fa-home" aria-hidden="true">&nbsp;Home</i></a></li>
+            <li><a href="#"><i class="fa fa-suitcase" aria-hidden="true">&nbsp;Projects</i></a></li>
+            <li><a href="#"><i class="fa fa-users" aria-hidden="true">&nbsp;Users</i>
+                </a></li>
+            <!-- <li><a href="#">Sign UP</a></li>
+            <li><a href="#">Login</a></li> -->
+            <li>
+                <a class="active" href="#">
+                    <i class="fa fa-user">&nbsp;Arif</i>
+                    <i class="fa fa-chevron-down"></i>
+                </a>
+                <div class="profileMenu">
+                    <ul>
+                        <li><a href="#" class="profile"><i class="far fa-user-circle"></i>&nbsp;Profile</a></li>
+                        <li><a href="#" class="logout"><i class="fas fa-sign-out-alt"></i>&nbsp;Logout</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="projectsContainer">
+        <h1>
+            Projects (10)
+            <span><a href="#">+ Add New</a></span>
+        </h1>
+
+        <table>
+            <tr>
+                <th>Name <i class="fas fa-caret-down"></i></th>
+                <th>Code <i class="fas fa-caret-down"></i></th>
+                <th>Description <i class="fas fa-caret-down"></i></th>
+                <th>Start Date <i class="fas fa-caret-down"></i></th>
+                <th>End Date <i class="fas fa-caret-down"></i></th>
+                <th>Status <i class="fas fa-caret-down"></i></th>
+                <th>Action <i class="fas fa-caret-down"></i></th>
+            </tr>
+            <tr>
+                <td>Project Dashboard</td>
+                <td>A001</td>
+                <td>Online</td>
+                <td>00/00/00</td>
+                <td>00/00/00</td>
+                <td>Active</td>
+                <td class="actionColumn">
+                    <select name="action" id="">
+                        <option selected disabled>Action</option>
+                        <option>Edit</option>
+                        <option>Delete</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Epay</td>
+                <td>A002</td>
+                <td>Online</td>
+                <td>00/00/00</td>
+                <td>00/00/00</td>
+                <td>Hold</td>
+                <td class="actionColumn">
+                    <select name="action" id="">
+                        <option selected disabled>Action</option>
+                        <option>Edit</option>
+                        <option>Delete</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Eshop</td>
+                <td>A003</td>
+                <td>Online</td>
+                <td>00/00/00</td>
+                <td>00/00/00</td>
+                <td>Closed</td>
+                <td class="actionColumn">
+                    <select name="action" id="">
+                        <option selected disabled>Action</option>
+                        <option>Edit</option>
+                        <option>Delete</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Cricket</td>
+                <td>A004</td>
+                <td>Online</td>
+                <td>00/00/00</td>
+                <td>00/00/00</td>
+                <td>Active</td>
+                <td class="actionColumn">
+                    <select name="action" id="">
+                        <option selected disabled>Action</option>
+                        <option>Edit</option>
+                        <option>Delete</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Banking</td>
+                <td>A005</td>
+                <td>Online</td>
+                <td>00/00/00</td>
+                <td>00/00/00</td>
+                <td>Abandoned</td>
+                <td class="actionColumn">
+                    <select name="action" id="">
+                        <option selected disabled>Action</option>
+                        <option>Edit</option>
+                        <option>Delete</option>
+                    </select>
+                </td>
+            </tr>
+            
+        </table>
+
+        <ul class="pagination">
+            <li><a href="#"><i class="fas fa-angle-left"></i></a></li>
+            <li><a href="#" class="active">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#"><i class="fas fa-angle-right"></i></a></li>
+        </ul>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/navbarStyle.css">
+    <link rel="stylesheet" href="../css/profileStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Candal&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Profile</title>
+</head>
+<body>
+    <nav>
+        <label class="logo">Project Dashboard</label>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="#"><i class="fa fa-home" aria-hidden="true">&nbsp;Home</i></a></li>
+            <li><a href="#"><i class="fa fa-suitcase" aria-hidden="true">&nbsp;Projects</i></a></li>
+            <li><a href="#"><i class="fa fa-users" aria-hidden="true">&nbsp;Users</i>
+                </a></li>
+            <!-- <li><a href="#">Sign UP</a></li>
+            <li><a href="#">Login</a></li> -->
+            <li>
+                <a class="active" href="#">
+                    <i class="fa fa-user">&nbsp;Arif</i>
+                    <i class="fa fa-chevron-down"></i>
+                </a>
+                <div class="profileMenu">
+                    <ul>
+                        <li><a href="#" class="profile"><i class="far fa-user-circle"></i>&nbsp;Profile</a></li>
+                        <li><a href="#" class="logout"><i class="fas fa-sign-out-alt"></i>&nbsp;Logout</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="profileContainer">
+        <h1>Profile</h1>
+
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><span class="semicolon">: </span>Md. Al Amin Arif</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><span class="semicolon">: </span>Male</td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td><span class="semicolon">: </span>22-12-1996</td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><span class="semicolon">: </span>24 years 1 month</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><span class="semicolon">: </span>aminarif.cs@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td><span class="semicolon">: </span>Bangladesh</td>
+            </tr>
+        </table>
+
+        <a href="#">Edit</a>
+    </div>
+
+</body>
+</html>
