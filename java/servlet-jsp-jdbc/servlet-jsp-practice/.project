@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>servlet-jsp-jdbc-crud</name>
+	<name>servlet-jsp-practice</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -30,7 +30,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1652762759442</id>
+			<id>1652762759454</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
