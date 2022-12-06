@@ -1,0 +1,34 @@
+[0] ###
+	Official website --> www.spring.io
+	
+[1] ###
+	Why Spring?
+	--> To simplify Java Enterprise Development
+	
+[2] ###
+	Spring Goals:
+	i) Lightweight development with Java POJOs (Plain Old Java Objects).
+	ii) Dependency Injection to promote loose coupling.
+	iii) Declarative programming with Aspect Oriented Programming (AOP).
+	iv) Minimize boilerplate Java code.
+	
+[3] ###
+	---------- Spring Framework Overview ----------
+	Core Container ----> Beans, Core, SpEL (Spring Expression Language), Context
+	--> It creates beans using Bean Factory and manages beans dependencies
+	
+	Insfrustructure ----> AOP, Aspects, Instrumentation (JMX), Messaging
+	
+	Data Access Layer ----> JDBC, ORM, Transactions, JMS (Java Message Service), OXM 
+	
+	Web Layer ----> Servlet, WebSocket, Web, Portlet
+	
+	Test Layer ----> Unit, Integration, Mock
+	
+[4] ###
+	AOP: Aspect Oriented Programming allows to create application oriented services	which add functionality to objects declaratively
+	(Logging, Security, Transactions, Instrumentation etc). Example: We declare project configuration in a properties files (declarative)
+	and AOP turns into the object to run the application.
+	
+[5] ###
+	
