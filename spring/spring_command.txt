@@ -1,0 +1,4 @@
+1. Run maven project in command prompt:
+
+    i) Linux/MacOS: ./mvnw spring-boot:run
+    ii) Windows: mvnw spring-boot:run
