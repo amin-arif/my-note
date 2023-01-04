@@ -42,7 +42,7 @@ There is a misconception that the hashCode() value returned for an object is the
     System.out.println("hashCode: " + obj.hashCode());
     System.out.println("hashCode: " + System.identityHashCode(obj));
 
-    Sample Output:
+**Sample Output:**
 
     Memory address: 31879960584
     toString: java.lang.Object@60addb54
