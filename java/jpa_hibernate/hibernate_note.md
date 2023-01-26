@@ -4,6 +4,6 @@
 
 ## **1. Hibernate**
 
-* Hibernate is an implementation of JPA
-* It is java based ORM tool.
-* Object Relational Mapping (ORM) is the programming technique that
+* **Hibernate** is java based ORM tool and a implementation of JPA.
+* **Object Relational Mapping (ORM)** is the programming technique to map application domain model objects to the relational database tables.
+* Hibernate provides framework for mapping application domain objects to the relational database tables and vice versa.
