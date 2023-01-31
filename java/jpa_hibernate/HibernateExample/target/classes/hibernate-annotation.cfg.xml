@@ -6,9 +6,9 @@
 	<session-factory>
 		<!-- Database connection properties - Driver, URL, user, password -->
 		<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-		<property name="hibernate.connection.url">jdbc:postgresql://123.200.22.150:5432/test_db</property>
-		<property name="hibernate.connection.username">CTrends_conn</property>
-		<property name="hibernate.connection.password">Ebs%?CTS&amp;Con2023</property>
+		<property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/test_db</property>
+		<property name="hibernate.connection.username">postgres</property>
+		<property name="hibernate.connection.password">123456</property>
 		
 		<!-- org.hibernate.HibernateException: No CurrentSessionContext configured! -->
 		<property name="hibernate.current_session_context_class">thread</property>
