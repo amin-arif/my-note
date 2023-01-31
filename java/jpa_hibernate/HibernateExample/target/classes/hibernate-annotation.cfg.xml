@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"https://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- Database connection properties - Driver, URL, user, password -->
+		<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+		<property name="hibernate.connection.url">jdbc:postgresql://123.200.22.150:5432/test_db</property>
+		<property name="hibernate.connection.username">CTrends_conn</property>
+		<property name="hibernate.connection.password">Ebs%?CTS&amp;Con2023</property>
+		
+		<!-- org.hibernate.HibernateException: No CurrentSessionContext configured! -->
+		<property name="hibernate.current_session_context_class">thread</property>
+		
+		<property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property> 
+		
+		<!-- Mapping with model class containing annotations -->
+		<mapping class="com.arif.hibernate.model.Employee1"/>
+	</session-factory>
+</hibernate-configuration>
