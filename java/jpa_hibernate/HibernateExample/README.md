@@ -4,6 +4,5 @@ It is a simple Hibernate project for learning purpose.
 
 ### To run specific main file in Maven project
 
-	# Command:
 	mvn compile exec:java -Dexec.mainClass="com.arif.hibernate.main.HibernateMain"
 
