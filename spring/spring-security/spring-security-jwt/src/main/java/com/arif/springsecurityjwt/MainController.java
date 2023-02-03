@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.arif.springsecurityjwt.models.AuthenticationRequest;
+import com.arif.springsecurityjwt.models.AuthenticationResponse;
 import com.arif.springsecurityjwt.services.UserDetailsServiceImpl;
 import com.arif.springsecurityjwt.util.JwtUtil;
 
@@ -50,7 +51,7 @@ public class MainController {
 		final UserDetails userDetails = userDetailsServiceImpl.loadUserByUsername(authenticationRequest.getUsername());
 		final String jwtToken = jwtUtil.generateToken(userDetails);
 		
-		return ResponseEntity.ok(null);
+		return ResponseEntity.ok(new AuthenticationResponse(jwtToken));
 	}
 	
 }
