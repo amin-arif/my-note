@@ -26,6 +26,8 @@
 	Test Layer ----> Unit, Integration, Mock
 	
 [4] ###
+	Spring Framework is developed on two core concepts - Dependency Injection and Aspect Oriented Programming (Spring AOP).
+
 	AOP: Aspect Oriented Programming allows to create application oriented services	which add functionality to objects declaratively
 	(Logging, Security, Transactions, Instrumentation etc). Example: We declare project configuration in a properties files (declarative)
 	and AOP turns into the object to run the application.
