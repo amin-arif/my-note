@@ -1,0 +1,26 @@
+- What is AOP?
+
+	* AOP (Aspect-Oriented Programmin) is a paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns.
+	* This services also called cross cutting concerns.
+	* Process of applying services or external services as transaction management or logging to our application class
+	without modifying the code.
+
+- Terminology of AOP, Aspect, Advice, Joinpoint, Pointcut etc
+
+	* Aspect: An aspect is a modularization of a concern that cuts across multiple classes.
+	
+	* Join Point: Join point is any point in program such as method execution, exception handling, field access etc.
+	Spring support only method execution join point.
+	
+	* Advice: Advice represent an action taken by an aspect at particular join point.
+	
+	* Pointcut: Pointcut is expressions that are matched with join points to determine whether advice needs to be executed or not.
+	
+	
+
+- Dependencies:
+	* Spring core
+	* Spring context
+	* Spring AOP
+	* Aspectjrt
+	* Aspectjweaver
