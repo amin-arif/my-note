@@ -1,5 +1,7 @@
 package com.arif.models;
 
+import com.arif.aspects.Loggable;
+
 public class Employee {
 	private String name;
 	
@@ -7,7 +9,7 @@ public class Employee {
 		return name;
 	}
 
-	// @Loggable
+	@Loggable
 	public void setName(String name) {
 		this.name = name;
 	}
