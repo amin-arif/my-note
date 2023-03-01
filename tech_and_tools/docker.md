@@ -44,8 +44,6 @@ To generate this message, Docker took the following steps:
 
 ## Docker Commands
 
-</br>
-
 1. Docker Status Check
 
         sudo systemctl status docker
@@ -58,53 +56,99 @@ To generate this message, Docker took the following steps:
 
 	    docker search [image name]
 
-4. Run Docker container (If image not exists of container, then download the image and run it)
+4. Run Docker Container from Image (If image not exists of container, then download the image and run it)
 
 	    docker run [image name]
 	
-5. Run Container with Interactive Shell
+5. Run Container from Image with Interactive Shell
 
-        fasd
-	
-6. Exit from container shell
+        docker run -it [image name]
 
-	    exit
-	
-7. Download Docker image
-	
-	    docker pull [image name]
-	
-8. Show Docker images
+6. Run Docker Container
 
-	    docker images
+	    docker start [container id or container name]
 	
-9. Show All Running / Active Container
+7. Run a Container with Interactive Shell
 
-	    docker ps
-	
-10. Show All Active and Inactive Container
+        docker start -i [container id or container name]
 
-	    docker ps -a
-	
-11. Show Latest Created Container
+8. Stop a Container
 
-	    docker ps -l
-	
-12. Start a Container
+        docker stop [container id or container name]
 
-	    docker start [container id]
-	
-13. Stop a Container
-
-	    docker stop [container id or container name]
-
-14. Remove a Container
+9. Remove a Container
 
 	    docker rm [container id or container name]
 	
-15. Rename a Container
+10. Rename a Container
 
 	    docker rename my_container my_new_container
+	
+11. Exit from container shell
+
+	    exit
+	
+12. Download Docker image
+
+	    docker pull [image name]
+	
+13. Show Docker images
+
+	    docker images
+	
+14. Show All Running / Active Container
+
+	    docker ps
+	
+15. Show All Active and Inactive Container
+
+	    docker ps -a
+	
+16. Show Latest Created Container
+
+	    docker ps -l
+
+17. Save the state of a container as a new Docker Image
+
+	    docker commit -m "What you did to the image" -a "Author info" [container_id] [new_image_name]
+
+18. Build a Docker Image from Dockerfile (Open terminal where Dockerfile exist)
+
+	    docker build -t [image_name] .
+
+</br>
+
+## Docker File / Script
+
+- It's called Dockerfile (Filename is also Dockerfile without any extension)
+
+- Image name should lowercase
+
+- Dockerfile example (Inside script):
+
+```Dockerfile
+# Each instruction in this file generates a new layer that gets pushed to your local image cache
+
+# Lines preceeded by # are regarded as comments and ignored
+
+#  Select the base image to build the new image on top of
+FROM ubuntu:20.04
+
+# Identify the maintainer of an image
+MAINTAINER Al Amin Arif "mdarifkanon@gmail.com"
+
+# Update the image to the latest packages and download jdk-8
+RUN apt-get update && apt-get install -y openjdk-8-jdk
+
+# Directory where files will be saved
+WORKDIR /usr/local/bin/
+
+# The jar run from current directory (.)
+ADD test-app.jar .
+
+# Excute the below commmand when contianer is run
+ENTRYPOINT ["java", "-jar", "test-app.jar"]
+```
 
 </br>
 
