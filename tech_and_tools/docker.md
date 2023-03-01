@@ -152,4 +152,6 @@ ENTRYPOINT ["java", "-jar", "test-app.jar"]
 
 </br>
 
-[Source 1](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04 "Digital Ocean")
+- Docker basic note [source-1](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04 "Digital Ocean")
+
+- Dockerfile note [source-2](https://linuxize.com/post/how-to-build-docker-images-with-dockerfile/#:~:text=Building%20the%20Image,-The%20next%20step&text=To%20do%20so%20run%20the,build%20%2Dt%20linuxize%2Fredis%20.&text=The%20option%20%2Dt%20specifies%20the,%2Fimagename%3Atag'%20format. "Linuxize")
