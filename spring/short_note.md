@@ -34,7 +34,9 @@
 
 7. **Dependency Injection**
 	
-> Dependency Injection (DI) is a design technique that removes dependencies from computer code, making the application easier to maintain and test.
+> Dependency Injection (DI) is a design technique that removes dependencies from computer code, making the application easier to maintain and test. 
+
+> It makes programming code loosely coupled.
 
 > Three types of dependency injections:
 
