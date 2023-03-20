@@ -20,7 +20,7 @@ Java is a high level, platform independent programming language. It is used to d
 ### 3. Java Compiler & JIT
 
 * **Java Compiler:** Java Compiler (javac) compile the java files in compile time and generate bytecodes (intermediate language).
-* **JIT:** JIT in Java is an integral part of the JVM. Java uses JIT (Just In Time) to enable high performance. JIT converts the bytecode into machine language and then JVM starts the execution.
+* **JIT:** JIT in Java is an integral part of the JVM. Java uses JIT (Just In Time) to enable high performance. JIT converts the bytecode into machine language and then JVM starts the execution. [learn more](https://www.javatpoint.com/jit-in-java)
 
 </br>
 
