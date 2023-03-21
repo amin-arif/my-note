@@ -24,4 +24,19 @@ Java is a high level, platform independent programming language. It is used to d
 
 </br>
 
+## **OOP**
+
+</br>
+
+### 1. Class & Object
+
+* Class:
+* Object:
+
+### 2. Key Points
+
+* Inheritance is only applicable to the public and protected members only. Private members can’t be inherited.
+
+</br>
+
 ## **Advance Java**
