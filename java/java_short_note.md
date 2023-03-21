@@ -35,7 +35,24 @@ Java is a high level, platform independent programming language. It is used to d
 
 ### 2. Key Points
 
+* ...
+
+### 3. Inheritance
+
 * Inheritance is only applicable to the public and protected members only. Private members can’t be inherited.
+
+### 4. Encapsulation
+
+* ...
+
+### 5. Polymorphism
+
+* Polymorphism means many forms.
+* Polymorphism is applicable for overriding and not for overloading.
+
+### 6. Abstraction
+
+* ...
 
 </br>
 
