@@ -48,11 +48,20 @@ Java is a high level, platform independent programming language. It is used to d
 ### 5. Polymorphism
 
 * Polymorphism means many forms.
-* Polymorphism is applicable for overriding and not for overloading.
+* Compile time polymorphism is achieved by method overloading.
+* Run time polymorphism is achieved by method overriding.
 
 ### 6. Abstraction
 
-* ...
+* Abstraction is the concept of hiding the internal details and express it in a simple way.
+* It can achieved in many ways in OOP such as encapsulation and polymorphism.
+* There are two types of abstraction.
+
+        i. Data Abstraction
+        ii. Process Abstraction
+
+* Example: A car. It can start by pressing a button, but the user don't know how the car engine is start. The car internal implementation and complex logic is completely hidden from the user.
+* [Learn more](https://www.digitalocean.com/community/tutorials/what-is-abstraction-in-oops "DigitalOcean")
 
 </br>
 
