@@ -49,7 +49,7 @@ Java is a high level, platform independent programming language. It is used to d
 
 ### 5. Polymorphism
 
-* Polymorphism means many forms.
+* Polymorphism means many forms. Where an object behaves differently in different situations.
 * Compile time polymorphism is achieved by method overloading.
 * Run time polymorphism is achieved by method overriding.
 
