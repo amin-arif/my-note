@@ -32,6 +32,7 @@ Java is a high level, platform independent programming language. It is used to d
 
 * Class:
 * Object:
+* Learning [resource-1](https://www.javatpoint.com/java-oops-concepts), [resource-2](https://www.digitalocean.com/community/tutorials/oops-concepts-java-example)
 
 ### 2. Key Points
 
@@ -43,7 +44,8 @@ Java is a high level, platform independent programming language. It is used to d
 
 ### 4. Encapsulation
 
-* ...
+* Binding (or wrapping) code and data together into a single unit are known as encapsulation. For example, a capsule, it is wrapped with different medicines.
+* Encapsulation is an oop concept that is used to implement abstraction. Encapsulation is achieved using access modifiers (public, private, protected, package, default).
 
 ### 5. Polymorphism
 
