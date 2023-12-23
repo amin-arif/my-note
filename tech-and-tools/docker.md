@@ -6,9 +6,9 @@
 
 - The software that hosts the container is called Docker Engine.
 
-- Docker containers are built from Docker images.
+- **Docker Image:** Docker is a template that has a predefined set of instructions to build a container. Docker images contain application code, libraries, tools, dependencies, and other files needed to make an application run. It is the starting point of Docker.
 
-- Conatiners are running version of images or an instance of image.
+- **Docker Container:** Docker containers are built from Docker images. Conatiners are running version of images or an instance of image.
 
 </br>
 
@@ -56,7 +56,7 @@ To generate this message, Docker took the following steps:
 
 	    docker search [image name]
 
-4. Run Docker Container from Image (If image not exists of container, then download the image and run it)
+4. Run Docker Container from Image (If image not exists, then download the image and run container from image)
 
 	    docker run [image name]
 	
@@ -64,7 +64,7 @@ To generate this message, Docker took the following steps:
 
         docker run -it [image name]
 
-6. Run Docker Container
+6. Run Docker Container (Exists Container)
 
 	    docker start [container id or container name]
 	
@@ -135,7 +135,7 @@ To generate this message, Docker took the following steps:
 FROM ubuntu:20.04
 
 # Identify the maintainer of an image
-MAINTAINER Al Amin Arif "mdarifkanon@gmail.com"
+MAINTAINER Arif "demo@gmail.com"
 
 # Update the image to the latest packages and download jdk-8
 RUN apt-get update && apt-get install -y openjdk-8-jdk
