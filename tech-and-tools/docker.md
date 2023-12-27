@@ -2,13 +2,16 @@
 
 ## Docker Overview
 
-- Docker is an open source platform to build, share and run applications. It use OS-level virtualization to deliver applicatons in packages called container.
+- **Docker** is an open source platform to build, share and run applications. It use OS-level virtualization to deliver applicatons in packages called container.
 
-- The software that hosts the container is called Docker Engine.
+- **Docker Engine:** The software that hosts the container is called Docker Engine.
 
 - **Docker Image:** Docker is a template that has a predefined set of instructions to build a container. Docker images contain application code, libraries, tools, dependencies, and other files needed to make an application run. It is the starting point of Docker.
 
 - **Docker Container:** Docker containers are built from Docker images. Conatiners are running version of images or an instance of image.
+
+- **Docker File:** The Docker file is the document of steps to set up the environment for the Application.
+The Docker Engine parses the Docker file and creates a Docker image from it.
 
 </br>
 
@@ -48,73 +51,79 @@ To generate this message, Docker took the following steps:
 
         sudo systemctl status docker
 	
-2. Show available docker subcommands:
+2. Show available Docker subcommands:
 
 	    docker
 		
-3. Search docker images
+3. Search Docker Images
 
-	    docker search [image name]
+		docker search [image name]
 
-4. Run Docker Container from Image (If image not exists, then download the image and run container from image)
+4. Download Docker Image
+
+	    docker pull [image name]
+
+5. Show Docker Images
+
+	    docker images
+
+6. Delete Docker Image
+
+	    docker image rm [image name]
+
+7. Run Docker Container from Image (If image not exists, then download the image and run container from it)
 
 	    docker run [image name]
 	
-5. Run Container from Image with Interactive Shell
+8. Run Container from Image with Interactive Shell
 
         docker run -it [image name]
 
-6. Run Docker Container (Exists Container)
+9.  Run Docker Container (Exists Container)
 
 	    docker start [container id or container name]
 	
-7. Run a Container with Interactive Shell
+10. Run a Container with Interactive Shell
 
         docker start -i [container id or container name]
 
-8. Stop a Container
+11. Stop a Container
 
         docker stop [container id or container name]
 
-9. Remove a Container
+12. Remove a Container
 
 	    docker rm [container id or container name]
 	
-10. Rename a Container
+13. Rename a Container
 
 	    docker rename my_container my_new_container
 	
-11. Exit from container shell
+14. Exit from container shell
 
 	    exit
 	
-12. Download Docker image
-
-	    docker pull [image name]
-	
-13. Show Docker images
-
-	    docker images
-	
-14. Show All Running / Active Container
+15. Show All Running / Active Container
 
 	    docker ps
 	
-15. Show All Active and Inactive Container
+16. Show All Active and Inactive Container
 
 	    docker ps -a
 	
-16. Show Latest Created Container
+17. Show Latest Created Container
 
 	    docker ps -l
 
-17. Save the state of a container as a new Docker Image
+18. Save the state of a container as a new Docker Image
 
 	    docker commit -m "What you did to the image" -a "Author info" [container_id] [new_image_name]
 
-18. Build a Docker Image from Dockerfile (Open terminal where Dockerfile exist)
+19. Build a Docker Image from Dockerfile (Open terminal where Dockerfile exist)
 
 	    docker build -t [image_name] .
+
+		or docker build [docker file path] --tag [image name]
 
 </br>
 
